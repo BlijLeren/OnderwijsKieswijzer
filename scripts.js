@@ -196,6 +196,13 @@ function showResults() {
     regulierMaps.style.display = "none";
   }
 
+  const regulierMapsTitel = document.querySelector("#reguliermaps-titel");
+  if (regulierCount > agoraCount) {
+    regulierMapsTitel.style.display = "block";
+  } else {
+    regulierMapsTitel.style.display = "none";
+  }
+
   document.getElementById(
     "regulier-stat"
   ).style.height = `${regulierPercentage}%`;
