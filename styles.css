@@ -20,9 +20,9 @@ font-weight: 900;
 font-style: normal;
 font-style: italic; */
 
-/* * {
+* {
   outline: 1px solid red !important;
-} */
+}
 
 body {
   margin: 0;
@@ -893,6 +893,37 @@ iframe {
 /* Enable interaction with map controls */
 iframe:hover {
   z-index: 1;
+}
+
+.Agorawebsite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffbf00;
+}
+
+.Agorawebsite div {
+  background-color: #ffbf00 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(10px 10px 0px rgb(0, 0, 0, 0.2));
+  max-width: 300px;
+}
+
+.Agorawebsite a {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.external-link-icon {
+  width: 50px;
+  height: 50px;
+}
+
+#SVGRepo_iconCarrier {
+  width: 20px;
 }
 
 /* .theme-popup::before {

@@ -181,6 +181,13 @@ function showResults() {
     agoraPercentage > regulierPercentage ? "block" : "none";
   document.getElementById("Regulier-FAQ").style.display =
     regulierPercentage >= agoraPercentage ? "block" : "none";
+  // Show/hide Agora website section based on results
+  const agoraWebsite = document.querySelector(".Agorawebsite");
+  if (agoraCount > regulierCount) {
+    agoraWebsite.style.display = "flex";
+  } else {
+    agoraWebsite.style.display = "none";
+  }
 
   document.getElementById(
     "regulier-stat"
