@@ -936,3 +936,46 @@ iframe:hover {
   background: rgba(0, 0, 0, 0.5);
   z-index: -1;
 } */
+
+.maps-container {
+  position: relative;
+  width: 90vw;
+  max-width: 640px;
+  height: 480px;
+  margin: 0 auto;
+}
+
+.maps-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  -webkit-animation: sk-rotate 2s infinite linear;
+  animation: sk-rotate 2s infinite linear;
+}
+
+.maps-spinner .dot1,
+.maps-spinner .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  border-radius: 100%;
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
+  animation: sk-bounce 2s infinite ease-in-out;
+}
+
+.maps-spinner .dot1 {
+  background-color: #ffbf00;
+}
+
+.maps-spinner .dot2 {
+  background-color: #1995fa;
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
