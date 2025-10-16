@@ -109,10 +109,10 @@
       "onderdeelnaam": "Leren leren",
       "thema": "Leren leren",
       "themanummer": "thema3",
-      "vraag": "Wat doe jij als je iets interessant vindt?",
+      "vraag": "Wat wil jij doen als je iets interessant vindt?",
       "opties": {
         "Regulier": {
-          "kind": "Ik luister goed en leer wat er wordt uitgelegd.",
+          "kind": "Ik ga goed luisteren en leer wat er wordt uitgelegd.",
           "ouder": "Nieuwsgierigheid krijgt vorm binnen lessen en opdrachten van het curriculum."
         },
         "Agora": {
